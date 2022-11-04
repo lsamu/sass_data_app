@@ -12,12 +12,24 @@ import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon'
 Vue.component('v-icon', Icon)
 
-import {useProject} from "./store/useProject"
+import BoxUI from "@lauxinyi/box-ui";
+Vue.use(BoxUI, { option: true });
 
-Vue.prototype.$project = useProject();
+import BoxEditor, { projectStore } from "@lauxinyi/box-editor"
+Vue.use(BoxEditor, { option: true });
+
+import Vant from 'vant';
+import 'vant/lib/index.css';
+Vue.use(Vant);
+
+import BoxVant from "./components/main";
+Vue.use(BoxVant, { option: true });
+
+import pinia from "./store/pinia"
+Vue.prototype.$project = projectStore(pinia);
 
 new Vue({
   router,
-  store,
+  pinia,
   render: (h) => h(App),
 }).$mount('#app');

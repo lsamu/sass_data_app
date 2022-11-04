@@ -12,6 +12,13 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.20.1.tgz#3e045a92f7b4623cafc2425eddcb8cf2e54f9cc5"
   integrity sha512-hp0AYxaZJhxULfM1zyp7Wgr+pSUKBcP3M+PHnSzWGdXOzg/kHWIgiUWARvubhUKGOEw3xqY4x+lyZ9ytBVcELw==
 
+"@babel/runtime@7.x":
+  version "7.20.1"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.1.tgz#1148bb33ab252b165a06698fde7576092a78b4a9"
+  integrity sha512-mrzLkl6U9YLF8qpqI7TB82PESyEGjm/0Ly91jG575eVxMMlb8fYfOXFZIJ8XfLrJZQbm7dlKry2bJmXBUEkdFg==
+  dependencies:
+    regenerator-runtime "^0.13.10"
+
 "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.5":
   version "7.15.3"
   resolved "https://registry.nlark.com/@babel/runtime/download/@babel/runtime-7.15.3.tgz"
@@ -145,10 +152,15 @@
   resolved "https://registry.npm.taobao.org/@interactjs/utils/download/@interactjs/utils-1.10.11.tgz"
   integrity sha1-k50PEo36lsZzJ2zKPrfzE9ktqr8=
 
-"@lauxinyi/box-ui@^1.1.38":
-  version "1.1.38"
-  resolved "https://registry.yarnpkg.com/@lauxinyi/box-ui/-/box-ui-1.1.38.tgz#2ad2842f29b12858fc305934558bf989841c3b27"
-  integrity sha512-zjsFKUkQsJDuc9WEBDXRm58/hydeLf4kQnj1kTrAYHiAN4K2+hARg6vnoIdGnjvR127WHijdzUeGeE7umsYYHQ==
+"@lauxinyi/box-editor@^1.1.40":
+  version "1.1.40"
+  resolved "https://registry.yarnpkg.com/@lauxinyi/box-editor/-/box-editor-1.1.40.tgz#38d9fae423f9d9a72a53806245c24f18d7a3a8c4"
+  integrity sha512-kZrB5p8OHxtLgs9QQ6f7MtXPFymrUCE1/TKWJbjJG/0WiM3g4T6SXZJrOTiSHL7sdViGfz8pWHrzdMeUoy61qQ==
+
+"@lauxinyi/box-ui@^1.1.40":
+  version "1.1.40"
+  resolved "https://registry.yarnpkg.com/@lauxinyi/box-ui/-/box-ui-1.1.40.tgz#744db7a37048aa9133d5609b92c35cc8558e76f1"
+  integrity sha512-ll5P7+TqQFK0m0ReE3Mcm5ghDE8lbmK9sWU4LcezExxg+UutsIV1mnc57XbTYCnVOSxDLw94x/GBTCg3BZkrdQ==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -234,6 +246,16 @@
   resolved "https://registry.nlark.com/@types/node/download/@types/node-16.6.1.tgz"
   integrity sha1-ruYse5ZvVfxmx7bfodWNsqYW2mE=
 
+"@vant/icons@^1.7.1":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@vant/icons/-/icons-1.8.0.tgz#36b13f2e628b533f6523a93a168cf02f07056674"
+  integrity sha512-sKfEUo2/CkQFuERxvkuF6mGQZDKu3IQdj5rV9Fm0weJXtchDSSQ+zt8qPCNUEhh9Y8shy5PzxbvAfOOkCwlCXg==
+
+"@vant/popperjs@^1.1.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@vant/popperjs/-/popperjs-1.3.0.tgz#e0eff017124b5b2352ef3b36a6df06277f4400f2"
+  integrity sha512-hB+czUG+aHtjhaEmCJDuXOep0YTZjdlRR+4MSmIFnkCQIxJaXLQdSsR90XWvAI2yvKUI7TCGqR8pQg2RtvkMHw==
+
 "@videojs/http-streaming@2.9.2":
   version "2.9.2"
   resolved "https://registry.nlark.com/@videojs/http-streaming/download/@videojs/http-streaming-2.9.2.tgz"
@@ -313,6 +335,11 @@
     "@volar/code-gen" "0.40.13"
     "@volar/typescript-faster" "0.40.13"
     "@volar/vue-language-core" "0.40.13"
+
+"@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@vue/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-1.4.0.tgz#8d53a1e21347db8edbe54d339902583176de09f2"
+  integrity sha512-JkqXfCkUDp4PIlFdDQ0TdXoIejMtTHP67/pvxlgeY+u5k3LEdKuWZ3LK6xkxo52uDoABIVyRwqVkfLQJhk7VBA==
 
 "@vue/compiler-core@3.2.41", "@vue/compiler-core@^3.2.38":
   version "3.2.41"
@@ -1886,6 +1913,11 @@ regenerator-runtime@^0.11.0:
   resolved "https://registry.nlark.com/regenerator-runtime/download/regenerator-runtime-0.11.1.tgz?cache=0&sync_timestamp=1626993001371&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregenerator-runtime%2Fdownload%2Fregenerator-runtime-0.11.1.tgz"
   integrity sha1-vgWtf5v30i4Fb5cmzuUBf78Z4uk=
 
+regenerator-runtime@^0.13.10:
+  version "0.13.10"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz#ed07b19616bcbec5da6274ebc75ae95634bfc2ee"
+  integrity sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==
+
 regenerator-runtime@^0.13.4:
   version "0.13.9"
   resolved "https://registry.nlark.com/regenerator-runtime/download/regenerator-runtime-0.13.9.tgz?cache=0&sync_timestamp=1626993001371&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregenerator-runtime%2Fdownload%2Fregenerator-runtime-0.13.9.tgz"
@@ -2253,6 +2285,17 @@ utrie@^1.0.1:
   dependencies:
     base64-arraybuffer "^1.0.1"
 
+vant@^2.12.46:
+  version "2.12.51"
+  resolved "https://registry.yarnpkg.com/vant/-/vant-2.12.51.tgz#b5a9193cecb6808716993346b46fbfb46c4b7895"
+  integrity sha512-0dZHcBWwKdQvgvAMr5hqObuwkHRn51c7ReLVDV/Ijp1twZ/9/JGMPKVCp1ebpzFAONudyDvu42adrkFUhheaUA==
+  dependencies:
+    "@babel/runtime" "7.x"
+    "@vant/icons" "^1.7.1"
+    "@vant/popperjs" "^1.1.0"
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
+    vue-lazyload "1.2.3"
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.nlark.com/vary/download/vary-1.1.2.tgz"
@@ -2427,6 +2470,11 @@ vue-html2canvas@^0.0.4:
   integrity sha1-3mMo2t1v3dUVTqxrFO+iYrjjgdc=
   dependencies:
     html2canvas "^1.0.0-alpha.12"
+
+vue-lazyload@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/vue-lazyload/-/vue-lazyload-1.2.3.tgz#901f9ec15c7e6ca78781a2bae4a343686bdedb2c"
+  integrity sha512-DC0ZwxanbRhx79tlA3zY5OYJkH8FYp3WBAnAJbrcuoS8eye1P73rcgAZhyxFSPUluJUTelMB+i/+VkNU/qVm7g==
 
 vue-monaco@^1.2.2:
   version "1.2.2"
