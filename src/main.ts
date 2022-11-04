@@ -8,12 +8,13 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI, { size: 'mini' });
 
-import VCharts from "v-charts";
-Vue.use(VCharts);
-
 import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon'
 Vue.component('v-icon', Icon)
+
+import {useProject} from "./store/useProject"
+
+Vue.prototype.$project = useProject();
 
 new Vue({
   router,
