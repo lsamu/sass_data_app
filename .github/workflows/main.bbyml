@@ -1,0 +1,19 @@
+name: main
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+ 
+      - name: Install
+        run: |
+          npm install
+          chmod +x ./scripts/gh.sh
+           ./scripts/gh.sh
