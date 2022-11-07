@@ -13,9 +13,11 @@ import Icon from 'vue-awesome/components/Icon'
 Vue.component('v-icon', Icon)
 
 import BoxUI from "@lauxinyi/box-ui";
+import "@lauxinyi/box-ui/dist/style.css"
 Vue.use(BoxUI, { option: true });
 
 import BoxEditor, { projectStore } from "@lauxinyi/box-editor"
+import "@lauxinyi/box-editor/dist/style.css"
 Vue.use(BoxEditor, { option: true });
 
 import Vant from 'vant';
