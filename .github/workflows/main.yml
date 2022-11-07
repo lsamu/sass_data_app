@@ -15,4 +15,5 @@ jobs:
       - name: Install
         run: |
           npm install
-          ./scripts/gh.sh
+          chmod +x ./scripts/gh.sh
+           ./scripts/gh.sh
