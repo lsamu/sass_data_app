@@ -152,15 +152,15 @@
   resolved "https://registry.npm.taobao.org/@interactjs/utils/download/@interactjs/utils-1.10.11.tgz"
   integrity sha1-k50PEo36lsZzJ2zKPrfzE9ktqr8=
 
-"@lauxinyi/box-editor@^1.1.40":
-  version "1.1.40"
-  resolved "https://registry.yarnpkg.com/@lauxinyi/box-editor/-/box-editor-1.1.40.tgz#38d9fae423f9d9a72a53806245c24f18d7a3a8c4"
-  integrity sha512-kZrB5p8OHxtLgs9QQ6f7MtXPFymrUCE1/TKWJbjJG/0WiM3g4T6SXZJrOTiSHL7sdViGfz8pWHrzdMeUoy61qQ==
+"@lauxinyi/box-editor@^1.1.42":
+  version "1.1.42"
+  resolved "https://registry.npmmirror.com/@lauxinyi/box-editor/-/box-editor-1.1.42.tgz#45e064c514c3a6f8182732fb14e8835ad1fd37fa"
+  integrity sha512-ehGceaFp0EXtmzNKzgY/MrprKq6u7ZLpHnyx/liwGGKP91ZcVJ79LkqKJnXNFBhs+PdL4PQJVjDE2aG27bVP+A==
 
-"@lauxinyi/box-ui@^1.1.40":
-  version "1.1.40"
-  resolved "https://registry.yarnpkg.com/@lauxinyi/box-ui/-/box-ui-1.1.40.tgz#744db7a37048aa9133d5609b92c35cc8558e76f1"
-  integrity sha512-ll5P7+TqQFK0m0ReE3Mcm5ghDE8lbmK9sWU4LcezExxg+UutsIV1mnc57XbTYCnVOSxDLw94x/GBTCg3BZkrdQ==
+"@lauxinyi/box-ui@^1.1.42":
+  version "1.1.42"
+  resolved "https://registry.npmmirror.com/@lauxinyi/box-ui/-/box-ui-1.1.42.tgz#0b6f43f574b8cf55b13d130c9a07544088d9955e"
+  integrity sha512-WG7RY8T5rIvOfaw8Z4CbOKUbQDwMCAUXqzXbwrEkNZobrfb1HBfBfr3wPzeM5gDgD/ASUw9vpaCUzYwdZOz9jg==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"

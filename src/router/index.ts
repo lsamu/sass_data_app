@@ -60,9 +60,14 @@ const routes: Array<RouteConfig> = [
     ],
   },
   {
-    path: "/editor/:id",
+    path: "/editor/:id?",
     name: "editor",
     component: () => import("../views/editor/index.vue"),
+  },
+  {
+    path: "/view/:id?",
+    name: "view",
+    component: () => import("../views/view/index.vue"),
   },
 ]
 

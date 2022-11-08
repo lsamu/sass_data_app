@@ -63,7 +63,7 @@ export default defineComponent({
     height: 32px;
     background: #ccc;
     border-radius: 50%;
-    background-image: url("../../assets/img/profile.jpg");
+    background-image: url("/src/assets/img/profile.jpg");
     background-size: 32px;
   }
 }

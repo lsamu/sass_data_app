@@ -1,6 +1,6 @@
 <template>
     <van-grid :column-num="5" :gutter="5">
-        <van-grid-item :icon="getAssets('../../../assets/index/grid_' + item + '.png')" :text="'文字' + item"
+        <van-grid-item :icon="getAssets('../../assets/index/grid_' + item + '.png')" :text="'文字' + item"
             v-for="item, index in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" :key="index" />
     </van-grid>
 </template>
